@@ -1,8 +1,4 @@
-num = 0
-soma = 0
-count = 0
-maior = 0
-menor = 0
+num = soma = count = maior = menor= 0
 
 while num != 'N':
     num = int(input('digite um valor: '))
