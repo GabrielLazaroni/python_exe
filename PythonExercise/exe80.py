@@ -11,5 +11,6 @@ for i in range(0, 5):
                 valores.insert(pos, num)
                 break
             pos += 1
+            
 print(f'o valores digitados em ordem foram {valores}')
 

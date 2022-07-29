@@ -9,4 +9,4 @@ while True:
     
 print(f'{len(lista)} numeros foram digitados')    
 print(f'a lista ordenada de forma decrescente fica: {lista}')
-print(f'o valor 5 nao está na lista' if 5 not in lista else print('o valor 5 está na lista'))
+print(f'o valor 5 está na lista' if 5 in lista else print('o valor 5 nao está na lista'))

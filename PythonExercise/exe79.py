@@ -1,3 +1,5 @@
+from time import sleep
+
 valores = []
 
 while True:
@@ -5,13 +7,14 @@ while True:
     if num not in valores:
         valores.append(num)
         valores.sort()
-        print(valores)
+        print('Valor adicionado!')
     else:
         print('Valor Dupicado...')
     
     resposta = str(input('Deseja continuar? [s/n]'))
     if resposta in 'Nn':
         break
-print(f'o numeros digitados, mostrando em ordem crescente sao: {valores}')
     
-        
+print('ANALISANDO... ')
+sleep(3)
+print(f'os numeros digitados, mostrando em ordem crescente sao: {valores}')
