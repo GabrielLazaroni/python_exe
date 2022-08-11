@@ -1,5 +1,3 @@
-from errno import ESOCKTNOSUPPORT
-from os import listxattr
 from random import choice
 
 n1 = str(input('primeiro aluno: '))

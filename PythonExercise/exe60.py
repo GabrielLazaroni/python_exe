@@ -1,10 +1,10 @@
 #importando a biblioteca MATH
-'''
+
 from math import factorial
 
 num = int(input('Digite um valor: '))
 f = factorial(num)
-print(f'o fatorial de {num} é {f}')'''
+print(f'o fatorial de {num} é {f}')
 
 # da meneira tradicional
 

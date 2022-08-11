@@ -1,4 +1,3 @@
-from ast import Num
 from random import randint
 from time import sleep
 
