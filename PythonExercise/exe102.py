@@ -1,6 +1,11 @@
 from math import factorial
 
 def fatorial(num, show=True):
+    """
+    A funçao fatorial recebe dois parametros (argumentos)
+     => parametro num = é o numero que o usuario escolheu
+     => parametro show = Recebe True or False. True para reber um output da esquação fatorial por extenso e False comente o resultado
+    """
     count = escolha
     fact = 1
     f = factorial(escolha)
@@ -17,5 +22,4 @@ def fatorial(num, show=True):
 
 
 escolha = int(input('Escolha um numero para saber seu fatorial: '))
-fatorial(escolha)
-    
+fatorial(escolha, show=True)
