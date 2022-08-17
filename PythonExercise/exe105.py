@@ -22,5 +22,5 @@ def notas(*num, sit=False):
 
 
 resp = notas(5.5, 2.5, 1.5, sit=True)
-#print(resp) 
+print(resp) 
 help(notas)
