@@ -4,9 +4,9 @@ from time import sleep
 lista = []
 jogos = []
 
-print('-' * 51)
-quant = int(input('Digite a quantidade de jogos você deseja gerar: '))
-print('-' * 51)
+print("-" * 51)
+quant = int(input("Digite a quantidade de jogos você deseja gerar: "))
+print("-" * 51)
 total = 1
 
 while total <= quant:
@@ -22,9 +22,9 @@ while total <= quant:
     jogos.append(lista[:])
     lista.clear()
     total += 1
-print(f'SORTEANDO {quant} JOGOS...')
+print(f"SORTEANDO {quant} JOGOS...")
 
 for i, l in enumerate(jogos):
-    print(f'Jogo {i + 1}: {l} ')
+    print(f"Jogo {i + 1}: {l} ")
     sleep(1)
-print('-' * 51)
+print("-" * 51)

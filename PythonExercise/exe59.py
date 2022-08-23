@@ -1,4 +1,4 @@
-#minha logica:
+# minha logica:
 
 """num1 = int(input('Digite o primeiro valor: '))
 num2 = int(input('digite o segundo valor: '))
@@ -46,46 +46,48 @@ while menu == 5:
     print('Fechando o promograma.')
     break"""
 
-#logica do professor
+# logica do professor
 
-num1 = int(input('primeiro valor: '))
-num2 = int(input('segundo valor: '))
+num1 = int(input("primeiro valor: "))
+num2 = int(input("segundo valor: "))
 opcao = 0
 
 while opcao != 5:
-    print('''
+    print(
+        """
     [1] soma
     [2] multiplicar
     [3] maior
     [4] novos numeros
-    [5] sair do programa''')
+    [5] sair do programa"""
+    )
 
-    opcao = int(input('qual é a sua opçao?'))
-    
+    opcao = int(input("qual é a sua opçao?"))
+
     if opcao == 1:
         soma = num1 + num2
-        print('a soma entre {} e {} é {}'.format(num1, num2, soma))
-    
+        print("a soma entre {} e {} é {}".format(num1, num2, soma))
+
     elif opcao == 2:
         mult = num1 * num2
-        print('a multiplicaçao entre {} e {} é {}'.format(num1, num2, mult))
+        print("a multiplicaçao entre {} e {} é {}".format(num1, num2, mult))
 
     elif opcao == 3:
         if num1 > num2:
             maior = num1
         else:
             maior = num2
-            print('entre {} e {} oe maior valor é {}'.format(num2, num1, maior))
+            print("entre {} e {} oe maior valor é {}".format(num2, num1, maior))
 
     elif opcao == 4:
-        print('informe os numeros novamente: ')
-        num1 = int(input('digite o primeiro valor: '))
-        num2 = int(input('digite o segundo valor: '))
+        print("informe os numeros novamente: ")
+        num1 = int(input("digite o primeiro valor: "))
+        num2 = int(input("digite o segundo valor: "))
 
     elif opcao == 5:
-        print('finalizando ...')
+        print("finalizando ...")
 
     else:
-        print('opçao invalida. tente novamente.')
+        print("opçao invalida. tente novamente.")
 
-print('fim do programa.')        
+print("fim do programa.")

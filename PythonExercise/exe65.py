@@ -1,7 +1,7 @@
-num = soma = count = maior = menor= 0
+num = soma = count = maior = menor = 0
 
-while num != 'N':
-    num = int(input('digite um valor: '))
+while num != "N":
+    num = int(input("digite um valor: "))
     count += 1
     soma += num
     media = soma / count
@@ -13,9 +13,9 @@ while num != 'N':
             maior = num
         if num < menor:
             menor = num
-    
-    num = str(input('Deseja continuar [S/N]? ')).upper()
-  
-print('a media dos valores digitados é {}'.format(media))
-print('o maior valor digitado foi {}'.format(maior))
-print('e o menor valor digitado foi {}'.format(menor))
+
+    num = str(input("Deseja continuar [S/N]? ")).upper()
+
+print("a media dos valores digitados é {}".format(media))
+print("o maior valor digitado foi {}".format(maior))
+print("e o menor valor digitado foi {}".format(menor))

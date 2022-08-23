@@ -1,1 +1,1 @@
-valor = int(input('Quantos reais você deseja sacar? '))
+valor = int(input("Quantos reais você deseja sacar? "))

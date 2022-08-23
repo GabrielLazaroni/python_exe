@@ -1,11 +1,13 @@
 from random import randint
 from time import sleep
 
-lista = ('Pedra', 'Papel', 'Tesoura')
+lista = ("Pedra", "Papel", "Tesoura")
 
 valor_bot = randint(0, 2)
 
-valor = int(input('''
+valor = int(
+    input(
+        """
 
 MENU:
 
@@ -13,49 +15,49 @@ MENU:
 [1] Papel
 [2] Tesoura
 
-escolha uma das opçoes: '''))
+escolha uma das opçoes: """
+    )
+)
 
-print('o computador escolheu {}'.format(lista[valor_bot]))
-print('você escolheu {}'.format(lista[valor]))
+print("o computador escolheu {}".format(lista[valor_bot]))
+print("você escolheu {}".format(lista[valor]))
 
 
 if valor_bot == 0:
 
     if valor == 0:
-        print('empate!')
+        print("empate!")
 
     elif valor == 1:
-        print('VOCE VENCEU!')
+        print("VOCE VENCEU!")
 
     elif valor == 2:
-        print('VOCE PERDEU!')
+        print("VOCE PERDEU!")
 
     else:
-        print('ação invalida')
+        print("ação invalida")
 
 elif valor_bot == 1:
 
     if valor == 1:
-        print('EMPATE!')
+        print("EMPATE!")
 
     elif valor == 0:
-        print('VOCE PERDEU!')
+        print("VOCE PERDEU!")
 
     elif valor == 2:
-        print('VOCE VENCEU')
+        print("VOCE VENCEU")
 
 elif valor_bot == 2:
 
     if valor == 2:
-        print('EMPATE!')
+        print("EMPATE!")
 
     elif valor == 0:
-        print('VOCE VENCEU!')
+        print("VOCE VENCEU!")
 
     elif valor == 1:
-        print('VOCE PERDEU!')
+        print("VOCE PERDEU!")
 
     else:
-        print('ação invalida')
-
-
+        print("ação invalida")

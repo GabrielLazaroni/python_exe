@@ -3,8 +3,8 @@ def ajuda(com):
 
 
 while True:
-    comando = str(input('Funçao ou Biblioteca >> ')).strip()
-    if comando.upper() == 'FIM':
+    comando = str(input("Funçao ou Biblioteca >> ")).strip()
+    if comando.upper() == "FIM":
         break
     else:
         ajuda(comando)

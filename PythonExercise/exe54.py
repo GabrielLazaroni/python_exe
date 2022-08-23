@@ -4,7 +4,7 @@ maior = 0
 menor = 0
 
 for i in range(1, 8):
-    nasc = int(input('Em que ano a {}ª pessoa nasceu? '.format(i)))
+    nasc = int(input("Em que ano a {}ª pessoa nasceu? ".format(i)))
     idade = date.today().year - nasc
 
     if idade >= 21:
@@ -13,12 +13,16 @@ for i in range(1, 8):
     else:
         menor += 1
 
-print('{} pessoas não atingiram maior idade e {} pessoas já são maiores'.format(menor, maior))
+print(
+    "{} pessoas não atingiram maior idade e {} pessoas já são maiores".format(
+        menor, maior
+    )
+)
 
-'''idade_maior = date.today().year - nasc
+"""idade_maior = date.today().year - nasc
 
 if idade_maior > 18:
     print(idade_maior)
     print('maior idade') 
 else:
-    print('menor idade')'''
+    print('menor idade')"""
