@@ -3,16 +3,15 @@
 from random import randint
 from time import sleep
 
-num = int(input('escolha um numero e tente acertar qual numero o bot pensou: '))
-num_bot = randint(1,2)
+num = int(input("escolha um numero e tente acertar qual numero o bot pensou: "))
+num_bot = randint(1, 2)
 
-print('PROCESSANDO...')
+print("PROCESSANDO...")
 sleep(2)
 
-print('o numero escolhido pelo bot foi {}:'.format(num_bot))
+print("o numero escolhido pelo bot foi {}:".format(num_bot))
 
 if num == num_bot:
-    print('voce acertou!!!')
+    print("voce acertou!!!")
 else:
-    print('voce perdeu! tente outra vez') 
-
+    print("voce perdeu! tente outra vez")
