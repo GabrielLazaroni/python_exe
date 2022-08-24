@@ -3,11 +3,14 @@ dados = []
 maior = menor = 0
 
 while True:
+
     dados.append(str(input("Digite seu nome: ")))
     dados.append(float(input("Digite sua peso: ")))
 
     if len(pessoas) == 0:
+
         maior = menor = dados[1]
+
     else:
         if dados[1] > maior:
             maior = dados[1]
@@ -22,6 +25,7 @@ while True:
         break
 
 print(f"{len(pessoas)} pessoas foram casdastradas.")
+
 
 for i in pessoas:
     if i[1] == maior:
